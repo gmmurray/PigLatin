@@ -53,10 +53,12 @@ namespace PigLatin
             inputArray[inputArray.Length - 2] = 'a';
             inputArray[inputArray.Length - 1] = 'y';
 
-            for (int i = 0; i < inputArray.Length; i++)
+            WriteLine("Result: ");
+            foreach (char letter in inputArray)
             {
-                WriteLine(inputArray[i]);
+                Write(letter);
             }
+            WriteLine("\n");
         }
     }
 }
